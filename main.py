@@ -84,7 +84,7 @@ def main():
     # print(type(results_df))
     # print(results_df)
     module.pickling_file(results_df, 'Investment001.pkl')
-    print(module.unpicking_file('Investment001.pkl')) # Uncomment this line to check what is store in pickle file.
+    # print(module.unpicking_file('Investment001.pkl')) # Uncomment this line to check what is store in pickle file.
 
 ########################################################################################################################
     # Step 6 - Dockerizing application
@@ -94,6 +94,9 @@ def main():
 
 ########################################################################################################################
 
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
+
+
